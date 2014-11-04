@@ -62,7 +62,7 @@ class IntrospectorHelper(object):
         if cut_off is not None:
             split_lines = split_lines[0:cut_off]
 
-        return "<br/>".join(split_lines)
+        return "\n".join(split_lines)
 
     @staticmethod
     def get_serializer_name(serializer):
